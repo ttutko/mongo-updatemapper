@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D39C6307-02A4-474E-9A14-CBF189ED0BC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mongo.UpdateMapper", "src\Mongo.UpdateMapper\Mongo.UpdateMapper.csproj", "{EC6DE174-3DCB-45DB-8E24-881692CE4E4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{873F2FF0-6777-4098-A82A-62CC0494EA69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mongo.UpdateMapper.Test", "test\Mongo.UpdateMapper.Test\Mongo.UpdateMapper.Test.csproj", "{64DCC6CE-7087-4956-9A53-60938FEDDF25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC6DE174-3DCB-45DB-8E24-881692CE4E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC6DE174-3DCB-45DB-8E24-881692CE4E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC6DE174-3DCB-45DB-8E24-881692CE4E4A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EC6DE174-3DCB-45DB-8E24-881692CE4E4A}.Debug|x64.Build.0 = Debug|Any CPU
+		{EC6DE174-3DCB-45DB-8E24-881692CE4E4A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EC6DE174-3DCB-45DB-8E24-881692CE4E4A}.Debug|x86.Build.0 = Debug|Any CPU
+		{EC6DE174-3DCB-45DB-8E24-881692CE4E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC6DE174-3DCB-45DB-8E24-881692CE4E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC6DE174-3DCB-45DB-8E24-881692CE4E4A}.Release|x64.ActiveCfg = Release|Any CPU
+		{EC6DE174-3DCB-45DB-8E24-881692CE4E4A}.Release|x64.Build.0 = Release|Any CPU
+		{EC6DE174-3DCB-45DB-8E24-881692CE4E4A}.Release|x86.ActiveCfg = Release|Any CPU
+		{EC6DE174-3DCB-45DB-8E24-881692CE4E4A}.Release|x86.Build.0 = Release|Any CPU
+		{64DCC6CE-7087-4956-9A53-60938FEDDF25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DCC6CE-7087-4956-9A53-60938FEDDF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64DCC6CE-7087-4956-9A53-60938FEDDF25}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{64DCC6CE-7087-4956-9A53-60938FEDDF25}.Debug|x64.Build.0 = Debug|Any CPU
+		{64DCC6CE-7087-4956-9A53-60938FEDDF25}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{64DCC6CE-7087-4956-9A53-60938FEDDF25}.Debug|x86.Build.0 = Debug|Any CPU
+		{64DCC6CE-7087-4956-9A53-60938FEDDF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64DCC6CE-7087-4956-9A53-60938FEDDF25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64DCC6CE-7087-4956-9A53-60938FEDDF25}.Release|x64.ActiveCfg = Release|Any CPU
+		{64DCC6CE-7087-4956-9A53-60938FEDDF25}.Release|x64.Build.0 = Release|Any CPU
+		{64DCC6CE-7087-4956-9A53-60938FEDDF25}.Release|x86.ActiveCfg = Release|Any CPU
+		{64DCC6CE-7087-4956-9A53-60938FEDDF25}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC6DE174-3DCB-45DB-8E24-881692CE4E4A} = {D39C6307-02A4-474E-9A14-CBF189ED0BC8}
+		{64DCC6CE-7087-4956-9A53-60938FEDDF25} = {873F2FF0-6777-4098-A82A-62CC0494EA69}
+	EndGlobalSection
+EndGlobal
