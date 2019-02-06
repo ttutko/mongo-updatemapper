@@ -5,11 +5,16 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D39C6307-02A4-474E-9A14-CBF189ED0BC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mongo.UpdateMapper", "src\Mongo.UpdateMapper\Mongo.UpdateMapper.csproj", "{EC6DE174-3DCB-45DB-8E24-881692CE4E4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mongo.UpdateMapper", "src\Mongo.UpdateMapper\Mongo.UpdateMapper.csproj", "{EC6DE174-3DCB-45DB-8E24-881692CE4E4A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{873F2FF0-6777-4098-A82A-62CC0494EA69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mongo.UpdateMapper.Test", "test\Mongo.UpdateMapper.Test\Mongo.UpdateMapper.Test.csproj", "{64DCC6CE-7087-4956-9A53-60938FEDDF25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mongo.UpdateMapper.Test", "test\Mongo.UpdateMapper.Test\Mongo.UpdateMapper.Test.csproj", "{64DCC6CE-7087-4956-9A53-60938FEDDF25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0FC2C9EE-EFAD-412B-89DC-54EBB6EF3E04}"
+	ProjectSection(SolutionItems) = preProject
+		CodeCoverage.runsettings = CodeCoverage.runsettings
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +24,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EC6DE174-3DCB-45DB-8E24-881692CE4E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -49,8 +51,14 @@ Global
 		{64DCC6CE-7087-4956-9A53-60938FEDDF25}.Release|x86.ActiveCfg = Release|Any CPU
 		{64DCC6CE-7087-4956-9A53-60938FEDDF25}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EC6DE174-3DCB-45DB-8E24-881692CE4E4A} = {D39C6307-02A4-474E-9A14-CBF189ED0BC8}
 		{64DCC6CE-7087-4956-9A53-60938FEDDF25} = {873F2FF0-6777-4098-A82A-62CC0494EA69}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10BF48F7-0167-4944-BBEE-D096B1CB219B}
 	EndGlobalSection
 EndGlobal
