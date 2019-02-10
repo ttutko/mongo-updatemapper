@@ -16,7 +16,12 @@ namespace Mongo.UpdateMapper
                 var matchingProperty = destProperties.Where(p => p.Name == srcProp.Name).SingleOrDefault();
                 if(matchingProperty != null)
                 {
-                    var curUpdate = Builders<TDest>.Update.Set(matchingProperty.Name, srcProp.GetValue(update).ToString());
+                    var value = srcProp.GetValue(update);
+                    if(value == null)
+                    {
+                        continue;
+                    }
+                    var curUpdate = Builders<TDest>.Update.Set(matchingProperty.Name, value);
                     updateDefinitions.Add(curUpdate);
                 }
             }
